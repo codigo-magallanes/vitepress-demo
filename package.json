@@ -1,0 +1,18 @@
+{
+  "name": "vitepress-starter",
+  "version": "1.0.0",
+  "description": "Proyecto según guía oficial de vitepress",
+  "main": "index.js",
+  "repository": "https://github.com/codigo-magallanes/docs",
+  "author": "Codigo Magallanes",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "vitepress": "^0.22.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
